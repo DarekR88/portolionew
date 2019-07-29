@@ -1,0 +1,22 @@
+.navContainer {   
+    .nav {
+        width: 960px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+        .dLogo {
+            height: 100px;
+        }
+        
+        .navItems {
+            font-size: 30px;
+            p {
+                display: inline-block;
+                margin-right: 20px;
+            }
+        }
+    }
+}
+
