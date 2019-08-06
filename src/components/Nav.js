@@ -15,7 +15,7 @@ const Nav = props => (
                 to="home"
                 spy={true}
                 smooth={true}
-                offset={-110}
+                offset={-200}
                 duration={500}
               >
                 Home

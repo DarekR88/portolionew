@@ -17,7 +17,53 @@
             padding-bottom: 25px;
 
             .self {
-                height: 200px;
+                height: 250px;
+            }
+
+            #phoneIcon {
+                color: darkgreen;
+                font-size: 20px;
+                margin-left: 145px;
+                margin-right: 10px;
+            }
+            #mailIcon {
+                color: darkgreen;
+                font-size: 20px;
+                margin-left: 145px;
+                margin-right: 10px;
+            }
+            #linkedinIcon {
+                color: darkgreen;
+                font-size: 20px;
+                margin-left: 145px;
+                margin-right: 10px;
+            }
+            .linkedinUrl {
+                text-decoration: none;
+                cursor: pointer;
+                color: black;
+            }
+            #githubIcon {
+                color: darkgreen;
+                font-size: 20px;
+                margin-left: 145px;
+                margin-right: 10px;  
+            }
+            .githubLink {
+                text-decoration: none;
+                cursor: pointer; 
+                color: black;
+            }
+            #fileIcon {
+                color: darkgreen;
+                font-size: 20px;
+                margin-left: 145px;
+                margin-right: 10px; 
+            }
+            .resumeLink {
+                text-decoration: none;
+                cursor: pointer; 
+                color: black;  
             }
 
         }

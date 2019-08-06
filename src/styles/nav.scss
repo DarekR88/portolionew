@@ -14,6 +14,12 @@
             font-size: 30px;
             position: fixed;
             margin-left: 600px;
+            width: 500px;
+
+            @media all and (max-width: 1145px) {
+                margin-left: 525px;
+              } 
+
             p {
                 display: inline-block;
                 margin-right: 20px;
