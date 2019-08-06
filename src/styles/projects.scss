@@ -1,0 +1,113 @@
+.projectsContainer {
+
+    .divider {
+        height: 1px;
+        background-color: black;
+    }
+
+    .projects {
+        width: 960px;
+        margin: auto;
+        margin-bottom: 140px;
+
+        .projectHeader {
+            font-size: 50px;
+            text-align: center;
+        }
+
+        .bestProject {
+            margin: auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            padding-bottom: 25px;
+            
+            .bestProjectDescription {
+
+                .projectTitle {
+                    font-size: 25px;
+                    margin-top: 15px;
+                    margin-bottom: 5px;
+                }
+
+                .projectBlurb {
+                    margin-bottom: 5px;
+                }
+
+                ul {
+                    list-style-type: circle;
+                }
+
+                margin-top: 0px;
+                width: 400px;
+            }
+
+            .projectImage {
+                margin-top: 20px;
+                height: 180px;
+            }
+        }
+        
+        .projectOne {
+            margin: auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            padding-bottom: 25px;
+            
+            .projectOneDescription {
+
+                .projectTitle {
+                    font-size: 25px;
+                    margin-top: 15px;
+                    margin-bottom: 5px;
+                }
+
+                .projectBlurb {
+                    margin-bottom: 5px;
+                }
+
+                ul {
+                    list-style-type: circle;
+                }
+
+                margin-top: 0px;
+                width: 400px;
+            }
+
+            .projectImage {
+                margin-top: 20px;
+                height: 180px;
+            }
+        }
+
+        .projectTwo {
+            margin: auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+
+            .projectTwoDescription{
+
+                .projectTitle {
+                    font-size: 25px;
+                    margin-top: 15px;
+                    margin-bottom: 5px;
+                    width: 400px;
+                }
+
+                ul {
+                    list-style-type: circle;
+                }
+
+                margin-top: 0px;
+                width: 400px;
+            }
+
+            .projectImage {
+                margin-top: 20px;
+                height: 220px;
+            }
+        }
+    }
+}

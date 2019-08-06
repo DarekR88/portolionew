@@ -1,0 +1,26 @@
+.contactContainer {
+    margin-top: 150px;
+
+    .contact {
+        width: 960px;
+        margin: auto;
+
+        .contactHeader {
+            text-align: center;
+            font-size: 50px;
+        }
+        .contactSection {
+            margin: auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            padding-bottom: 25px;
+
+            .self {
+                height: 200px;
+            }
+
+        }
+
+    }
+}

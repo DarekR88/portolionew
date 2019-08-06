@@ -12,9 +12,12 @@
         
         .navItems {
             font-size: 30px;
+            position: fixed;
+            margin-left: 600px;
             p {
                 display: inline-block;
                 margin-right: 20px;
+                cursor: pointer;
             }
         }
     }
