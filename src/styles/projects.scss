@@ -1,5 +1,31 @@
 .projectsContainer {
 
+    .projectButtons {
+        text-align: center;
+    }
+    
+    a {
+        margin: 10px;
+        text-decoration: none;
+        cursor: pointer; 
+        color: black; 
+    }
+
+    .herokuIcon {
+        height: 20px;
+        position: relative;
+        top: 3px;
+        margin-left: 3px;
+    }
+
+    #githubIcon {
+        margin-right: 3px;
+    }
+    
+    li {
+        margin-bottom: 7px;
+    }
+
     .divider {
         height: 1px;
         background-color: black;
