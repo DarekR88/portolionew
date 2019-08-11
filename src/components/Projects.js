@@ -12,7 +12,7 @@ const Projects = props => (
                 <div className='projectButtons'>
                     <img className='projectImage' src={Hair} alt="Hair screenshot" />
                     <div className='projectLinks'>
-                        <a className='deployedLink' href={'https://docs.google.com/document/d/1rnKLGv9Pz8hbtlZFnhmpjAVmRgtdeURjkIdtgBEY_b4/edit?usp=sharing'} target={'_blank'}>
+                        <a className='deployedLink' href={'https://hair-salon-julieg.herokuapp.com'} target={'_blank'}>
                             <span><img className='herokuIcon' src={HerokuIcon} alt='herokuIcon'></img></span>
                             Deployed Link
                         </a>
@@ -108,6 +108,7 @@ const Projects = props => (
                     </ul>
                 </div>
             </div>
+            <div className='bottomDivider'></div>
         </div>
     </div>
 );

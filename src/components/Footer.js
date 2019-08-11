@@ -1,7 +1,9 @@
 import React from 'react';
 
 const Footer = props => (
-    <div className='footer'></div>
+    <div className='footerContainer'>
+        <p>Portfolio built with React and Sass.</p>
+    </div>
 );
 
 export default Footer;

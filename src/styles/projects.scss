@@ -8,6 +8,9 @@
         margin: 10px;
         text-decoration: none;
         cursor: pointer; 
+        &:hover {
+            font-weight: bold;
+        }
         color: black; 
     }
 
@@ -28,13 +31,19 @@
 
     .divider {
         height: 1px;
-        background-color: black;
+        background-color: darkgreen;
     }
 
     .projects {
         width: 960px;
         margin: auto;
         margin-bottom: 140px;
+
+        .bottomDivider {
+            height: 1px;
+            background-color: darkgreen;
+            margin-top: 20px;
+        }
 
         .projectHeader {
             font-size: 50px;
