@@ -51,7 +51,7 @@ const Nav = props => (
                         to="contact"
                         spy={true}
                         smooth={true}
-                        offset={-150}
+                        offset={-125}
                         duration={500}
                     >
                         Contact
