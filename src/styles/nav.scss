@@ -1,35 +1,36 @@
-.navContainer {   
-    .nav {
-        width: 960px;
-        margin: auto;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    
-        .dLogo {
-            height: 100px;
-        }
-        
-        .navItems {
-            font-size: 30px;
-            position: fixed;
-            margin-left: 600px;
-            width: 500px;
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+	width: 100vw;
 
-            @media all and (max-width: 1145px) {
-                margin-left: 525px;
-              } 
+  .dLogo {
+    height: 70px;
+  }
 
-            p {
-                display: inline-block;
-                margin-right: 20px;
-                cursor: pointer;
-                &:hover {
-                    font-weight: bold;
-                }
-            }
+  .navItems {
+    font-size: 24px;
+    display: flex;
+    background-color: #fff;
 
-        }
+    @media all and (min-width: 512px) {
+			margin-right: 30px;
     }
-}
 
+    .nav-item {
+      display: inline-block;
+			margin-right: 20px;
+			color: #333;
+			
+      cursor: pointer;
+
+      &:hover {
+				color: lightgrey;
+      }
+
+      @media all and (min-width: 512px) {
+				font-size: 24px;
+      }
+    }
+  }
+}
