@@ -38,7 +38,7 @@ const Nav = (props) => (
           to="projects"
           spy={true}
           smooth={true}
-          offset={-150}
+          offset={-50}
           duration={500}
         >
           Projects

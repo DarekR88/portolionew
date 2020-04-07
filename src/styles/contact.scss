@@ -16,6 +16,9 @@
             flex-direction: row;
             justify-content: space-evenly;
             padding-bottom: 25px;
+            @media all and (max-width: 512px) {
+                flex-direction: column;
+        }
 
             .self {
                 height: 250px;

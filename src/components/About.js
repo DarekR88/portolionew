@@ -2,7 +2,6 @@ import React from 'react';
 
 const About = props => (
     <div className='aboutContainer' id='about'>
-        <p className='aboutTitle'>About</p>
         <div className='about'>
             <p className='about-block'>
                 UI/UX developer with a passion for creating dynamic and responsive experiences.
