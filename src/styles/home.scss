@@ -1,25 +1,30 @@
-.homeContainer{
-    
-    .home{
-        // width: 960px;
-        margin: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 500px;
-        margin-top: 50px;
+.homeContainer {
 
-        .blurb{
-            font-size: 70px;
-            margin: 0;
-            margin-bottom: 50px;
-            text-align: center;
-        }
+	.home {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		height: 400px;
 
-        .name{
-            font-size: 70px; 
-            margin: 0;
-        }
-    }
+		@media all and (min-width: 512px) {
+			height: 500px;
+		}
+
+		.blurb-top {
+			font-size: 32px;
+			margin-bottom: 20px;
+			text-align: center;
+			color: $primary-dark;
+			
+			@media all and (min-width: 512px) {
+				font-size: 48px;
+			}
+		}
+
+		.blurb-bottom {
+			font-size: 24px;
+			text-align: center;
+		}
+	}
 }

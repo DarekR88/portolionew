@@ -1,25 +1,52 @@
-@import './nav.scss';
-@import './home.scss';
-@import './about.scss';
-@import './projects.scss';
-@import './contact.scss';
-@import './technologies.scss';
-@import './footer.scss';
+@import "./variables.scss";
+@import "./nav.scss";
+@import "./home.scss";
+@import "./about.scss";
+@import "./projects.scss";
+@import "./contact.scss";
+@import "./technologies.scss";
+@import "./footer.scss";
+@import "./burgerbutton.scss";
+@import "./menu.scss";
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
+html {
+	background-color: $secondary-light;
 }
 
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: $primary-dark;
+}
 
-html, body, ul, li, h3, h2, h1, a, p {
-    margin: 0;
-    padding: 0;
+html,
+body,
+ul,
+li,
+h3,
+h2,
+h1,
+a,
+p {
+	margin: 0;
+	padding: 0;
 }
 
 .allContainer {
-    margin: 20px;
+	margin: 0 20px;
 
-    @media all and (min-width: 512px) {
-        margin: 0;
-    }
+	@media all and (min-width: 512px) {
+		margin: 0 60px;
+	}
+}
+
+.heading-l {
+	font-size: 32px;
+	margin-bottom: 24px;
+	color: $primary-dark;
+	text-align: center;
+	
+	@media all and (min-width: 512px) {
+		font-size: 48px;
+		margin-bottom: 36px;
+	}
 }

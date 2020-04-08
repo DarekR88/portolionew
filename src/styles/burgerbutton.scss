@@ -1,0 +1,45 @@
+.burgerButton {
+  margin-right: 20px;
+	border: 1px solid red;
+	text-transform: uppercase;
+	color: $secondary-light;
+	letter-spacing: 1.5px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	height: 44px;
+	width: 44px;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	padding: 0;
+	box-sizing: border-box;
+	cursor: pointer;
+
+	.burgerTitle {
+		margin-right: 5px;
+		font-size: 24px;
+	}
+
+	.menu-lines {
+		.buttonLine {
+			width: 30px;
+			margin-top: 6px;
+			height: 1px;
+			background: $secondary-light;
+			border-radius: 50px;
+
+			&:first-of-type {
+				margin-top: 0;
+			}
+		}
+	}
+	@media all and (min-width: 768px) {
+		display: none;
+		width: 0px;
+	}
+}
+
+.burgerButton:focus {
+	background: none;
+}
