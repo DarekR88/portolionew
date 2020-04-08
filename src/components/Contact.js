@@ -16,7 +16,7 @@ const Contact = (props) => (
 				</div>
 				<div className="info-block">
 					<span className="fas fa-envelope contact-icon"></span>
-					<p>Dradmclad@gmail.com</p>
+					<p>Darekradke2@gmail.com</p>
 				</div>
 				<div className="info-block">
 					<span className="fab fa-linkedin contact-icon"></span>
